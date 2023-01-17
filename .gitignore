@@ -2,3 +2,6 @@
 *.exe
 *.out
 *.out
+training/ch1/friday/.idea/inspectionProfiles/profiles_settings.xml
+*.iml
+*.xml
