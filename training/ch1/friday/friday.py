@@ -6,6 +6,7 @@ TASK: friday
 
 def is_hundred_year(yr):
    return int(yr%100)==0
+
 def is_leap_year(n):
    # is hundred year?
    if is_hundred_year(n):
@@ -22,7 +23,6 @@ with open('friday.in', mode='r', encoding='utf-8') as fin:
 print(" N: ", N)
 dt=0
 curr_yr=1900
-ii=0
 stats=[0]*7
 short_months=[4, 6, 9,11]
 
